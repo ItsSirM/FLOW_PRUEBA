@@ -197,7 +197,6 @@ public class MAIN extends javax.swing.JFrame {
         cargarListaInicio = new javax.swing.JCheckBoxMenuItem();
         guardar_lista = new javax.swing.JMenuItem();
         cargar_lista = new javax.swing.JMenuItem();
-        jMenuItem7 = new javax.swing.JMenuItem();
         jMenuItem1 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
         jMenuItem4 = new javax.swing.JMenuItem();
@@ -305,15 +304,6 @@ public class MAIN extends javax.swing.JFrame {
             }
         });
         jMenu1.add(cargar_lista);
-
-        jMenuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F2, 0));
-        jMenuItem7.setText("Acerca de");
-        jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem7ActionPerformed(evt);
-            }
-        });
-        jMenu1.add(jMenuItem7);
 
         jMenuItem1.setText("Salir");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
@@ -668,12 +658,6 @@ public class MAIN extends javax.swing.JFrame {
         System.exit(0);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
-    private void jMenuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem7ActionPerformed
-        JOptionPane.showMessageDialog(null, "Proyecto final, programacion I\n(estructuras de datos)");
-        JOptionPane.showMessageDialog(null, "Con ajustes posteriores");
-        JOptionPane.showMessageDialog(null, "por: Wilmer Castrillon,\nprimera aplicacion grafica\nversion 1.7");
-    }//GEN-LAST:event_jMenuItem7ActionPerformed
-
     private void cargar_listaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cargar_listaActionPerformed
         JFileChooser chooser = new JFileChooser();
         chooser.setFileFilter(new FileNameExtensionFilter("archivo lis", "lis"));
@@ -728,7 +712,6 @@ public class MAIN extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem4;
     private javax.swing.JMenuItem jMenuItem5;
     private javax.swing.JMenuItem jMenuItem6;
-    private javax.swing.JMenuItem jMenuItem7;
     private javax.swing.JProgressBar jProgressBar1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JSeparator jSeparator1;
